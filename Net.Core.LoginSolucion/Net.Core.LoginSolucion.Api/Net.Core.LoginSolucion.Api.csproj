@@ -16,4 +16,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.Logica\Net.Core.LoginSolucion.Api.Infraestructura.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.ModeloDeDatos\Net.Core.LoginSolucion.Api.ModeloDeDatos.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.Servicio\Net.Core.LoginSolucion.Api.Servicio.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Core.LoginSolucion.Api", "Net.Core.LoginSolucion.Api\Net.Core.LoginSolucion.Api.csproj", "{76003541-A30C-4A13-8239-9CDA584A8FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Core.LoginSolucion.Api", "Net.Core.LoginSolucion.Api\Net.Core.LoginSolucion.Api.csproj", "{76003541-A30C-4A13-8239-9CDA584A8FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Core.LoginSolucion.Web", "Net.Core.LoginSolucion.Web\Net.Core.LoginSolucion.Web.csproj", "{713B90FA-A1F3-4B59-B2D5-7AA531749E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Core.LoginSolucion.Web", "Net.Core.LoginSolucion.Web\Net.Core.LoginSolucion.Web.csproj", "{713B90FA-A1F3-4B59-B2D5-7AA531749E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Core.LoginSolucion.Api.Infraestructura", "Net.Core.LoginSolucion.Web.Logica\Net.Core.LoginSolucion.Api.Infraestructura.csproj", "{1377B998-6787-4B82-B425-10EE5F12D5EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Core.LoginSolucion.Api.ModeloDeDatos", "Net.Core.LoginSolucion.Web.ModeloDeDatos\Net.Core.LoginSolucion.Api.ModeloDeDatos.csproj", "{BDC1FE5C-F893-4C00-83AA-D1152094CA08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Core.LoginSolucion.Api.Servicio", "Net.Core.LoginSolucion.Web.Servicio\Net.Core.LoginSolucion.Api.Servicio.csproj", "{2F0B56B0-C18C-4259-8FC5-D9668B458C92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{713B90FA-A1F3-4B59-B2D5-7AA531749E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713B90FA-A1F3-4B59-B2D5-7AA531749E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713B90FA-A1F3-4B59-B2D5-7AA531749E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1377B998-6787-4B82-B425-10EE5F12D5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1377B998-6787-4B82-B425-10EE5F12D5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1377B998-6787-4B82-B425-10EE5F12D5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1377B998-6787-4B82-B425-10EE5F12D5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC1FE5C-F893-4C00-83AA-D1152094CA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC1FE5C-F893-4C00-83AA-D1152094CA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC1FE5C-F893-4C00-83AA-D1152094CA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC1FE5C-F893-4C00-83AA-D1152094CA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0B56B0-C18C-4259-8FC5-D9668B458C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0B56B0-C18C-4259-8FC5-D9668B458C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0B56B0-C18C-4259-8FC5-D9668B458C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0B56B0-C18C-4259-8FC5-D9668B458C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
