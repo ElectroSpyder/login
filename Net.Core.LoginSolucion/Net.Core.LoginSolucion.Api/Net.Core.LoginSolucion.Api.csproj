@@ -5,11 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Models\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,9 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.Logica\Net.Core.LoginSolucion.Api.Infraestructura.csproj" />
-    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.ModeloDeDatos\Net.Core.LoginSolucion.Api.ModeloDeDatos.csproj" />
-    <ProjectReference Include="..\Net.Core.LoginSolucion.Web.Servicio\Net.Core.LoginSolucion.Api.Servicio.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Api.Logica\Net.Core.LoginSolucion.Api.Infraestructura.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Api.ModeloDeDatos\Net.Core.LoginSolucion.Api.ModeloDeDatos.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Api.Servicio\Net.Core.LoginSolucion.Api.Servicio.csproj" />
+    <ProjectReference Include="..\Net.Core.LoginSolucion.Web\Net.Core.LoginSolucion.Web.csproj" />
   </ItemGroup>
 
 </Project>

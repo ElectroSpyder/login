@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Net.Core.LoginSolucion.Api.Infraestructura.Interfaces;
 using Net.Core.LoginSolucion.Api.ModeloDeDatos;
 using Net.Core.LoginSolucion.Api.Servicio.Repositorio;
+using AutoMapper;
 
 namespace Net.Core.LoginSolucion.Api
 {
@@ -27,6 +28,7 @@ namespace Net.Core.LoginSolucion.Api
             services.AddTransient<IRepository<Usuario>, UsuarioRepository>();
 
             services.AddMvc();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
